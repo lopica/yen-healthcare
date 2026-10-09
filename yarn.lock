@@ -2561,9 +2561,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.5.6":
-  version: 10.5.6
-  resolution: "autoprefixer@npm:10.5.6"
+"autoprefixer@npm:10.6.1":
+  version: 10.6.1
+  resolution: "autoprefixer@npm:10.6.1"
   dependencies:
     browserslist: ^4.28.9
     caniuse-lite: ^1.0.30001810
@@ -2574,7 +2574,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 60628375d35580c5b6afb7928b3034c24eb22ea259bcdc0fcd31075fa023249ffce5056a91fee6b4575b80f8385acecd3094d5a2ef7cde3bf312c4c39631f0ec
+  checksum: 49a5ebfa5efeea4d9d4a606f2406100b2905bd0b54babd5b5509437db791993bafe6f3d11eed81f2624291fe69e70811f9721a2d4b9379418e369759952f2060
   languageName: node
   linkType: hard
 
@@ -4685,7 +4685,7 @@ __metadata:
     "@types/react": 19.3.0
     "@types/react-dom": 19.2.4
     ai: ^7.0.66
-    autoprefixer: 10.5.6
+    autoprefixer: 10.6.1
     class-variance-authority: ^0.7.1
     clsx: ^2.1.1
     eslint: ^10.8.1
