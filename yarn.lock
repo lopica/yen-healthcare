@@ -4691,7 +4691,7 @@ __metadata:
     eslint: ^10.8.1
     eslint-config-next: 16.3.6
     langchain: ^1.5.9
-    lucide-react: ^0.473.0
+    lucide-react: ^1.52.0
     next: ^16.3.4
     next-themes: ^0.4.6
     nuqs: ^2.3.2
@@ -4807,12 +4807,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.473.0":
-  version: 0.473.0
-  resolution: "lucide-react@npm:0.473.0"
+"lucide-react@npm:^1.52.0":
+  version: 1.52.0
+  resolution: "lucide-react@npm:1.52.0"
   peerDependencies:
+    "@types/react": "*"
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: f1af352c6056f14c6567271a5f37c3a67e910cf226f465a40d55c0d160e96daa102f5398b68d1168292a66ccc7a4a085a4d668dcbc755ea4d53c2f6ea39d3868
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 12b94ff9c79459208ebf2e50e7cd53185bfc0acc05beaa9236ff8706c62898a359f22175d0164bfad001135e1a3daf0e8ed2320f17bbb3b68f3a72f4b91458a7
   languageName: node
   linkType: hard
 
